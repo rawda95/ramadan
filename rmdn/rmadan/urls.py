@@ -4,7 +4,7 @@ from .views import index, UserPage
 
 app_name = 'rmadan'
 urlpatterns = [
-    path('main/', index, name='index'),
+    path('/', index, name='index'),
     path('<name>/', UserPage, name='UserPage')
 
 ]
